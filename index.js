@@ -21,7 +21,7 @@ function updateClock(){
     secondEl.innerText= s;
     ampmEl.innerText=ampm;
     setTimeout(()=>{
-        updateClock
+        updateClock();
     },1000)
 }
 updateClock();
